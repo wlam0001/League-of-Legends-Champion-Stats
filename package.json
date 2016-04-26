@@ -1,0 +1,17 @@
+{
+  "name": "league_of_legend_team_comp",
+  "version": "1.0.0",
+  "description": "Smart ways to play begin to planning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Emily Lam",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "mongodb": "^2.1.16"
+  }
+}
