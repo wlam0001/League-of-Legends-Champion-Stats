@@ -10,9 +10,12 @@ To use on view on your own machine, follow the following steps:
 
 Inside your git bash
   -git clone https://github.com/wlam0001/League-of-Legends-Champion-Stats
+  
   -cd into League-of-Legends-Champion-Stats
+  
   -node index.js
   
 Inside browser
+
   -localhost:3000/home
 
