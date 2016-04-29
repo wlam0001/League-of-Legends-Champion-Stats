@@ -15,6 +15,7 @@ app.use(express.static('public'));
 app.set('view engine', 'ejs');
 
 app.get('/home', team.list);
+app.get('/show', team.show);
 
 
 db.connect('mongodb://localhost:27017/finalcontents', function(){

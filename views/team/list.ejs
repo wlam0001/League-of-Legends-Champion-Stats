@@ -20,7 +20,11 @@
         <img class="title" src="/img/league.png" />
     </div>
     <div class="row d3Layout">
-        <h2>Welcome Summoner</h2>
+        <h1>Welcome Summoner</h1>
+        <p align = "right" font-size = "12"><a href="/home">Home </a>| <a href="/show">Show</a></p>
+        <p>League of Legends is an fast pace game with each game lasting from 20 minutes to an hour depending on the map. Two teams, each consisting of five champions, fight to destroy each other's base. In each game, team composition is the key to victory.
+            Each team can consist of any combination of physical damage (marksman), magicial damage (mage), defense (tanks), fighters, support and assassins.</p>
+        <p>INSTRUCTIONS: <b>click</b> on each class of champions and <b>click</b> on each champion to see their stats to figure out the best team composition for the win!</p>
         <div class="container col-sm-7">
             <script src="/js/d3App.js"></script>
         </div>
@@ -34,28 +38,6 @@
         </div>
     </div>
 
-    <div class="angularLayout" ng-controller="BaseController as base">
-        <p>randomd slkjflksjdfl</p>
-
-        <label class = "search">Search:
-            <input ng-model="searchChampion">
-        </label>
-        <label>Order by</label>
-      <!-- <select ng-model="selectedOrder" ng-options="option for option in options"></select> -->
-        <div ng-controller="ChampionsController as championCtrl">
-            <div class="champion col-sm-3" ng-repeat="champion in championCtrl.champions | filter:searchChampion">
-                <h3>{{ champion.name }}</h3>
-                <p><span ng-repeat="tag in champion.tags">
-                    {{tag}}   {{$last ? '' : ($index==champion.tags.length-2) ? ', ' : ', '}} 
-                </span></p>
-                <img ng-src=" {{ champion.image }}" class="img-circle" />
-                <p class="attack">Attack: {{ champion.info.attack }} </p>
-                <p class="defense">Defense: {{ champion.info.defense }} </p>
-                <p class="magic">Magic: {{ champion.info.magic }} </p>
-                <p class="difficulty">Difficulty: {{ champion.info.difficulty }} </p>
-            </div>
-        </div>
-    </div>
 </body>
 
 </html>
