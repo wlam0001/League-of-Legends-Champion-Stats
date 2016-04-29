@@ -1,0 +1,36 @@
+[{
+    "name": "Anivia",
+    "info1": 1,
+    "info2": 4,
+    "info3": 10
+}, {
+    "name": "Draven",
+    "info1": 9,
+    "info2": 3,
+    "info3": 1
+}, {
+    "name": "Dr. Mundo",
+    "info1": 5,
+    "info2": 7,
+    "info3": 6
+}, {
+    "name": "Ekko",
+    "info1": 5,
+    "info2": 3,
+    "info3": 7
+}, {
+    "name": "Elise",
+    "info1": 6,
+    "info2": 5,
+    "info3": 7
+}, {
+    "name": "Evelynn",
+    "info1": 4,
+    "info2": 2,
+    "info3": 7
+}, {
+    "name": "Ezreal",
+    "info1": 7,
+    "info2": 2,
+    "info3": 6
+}]

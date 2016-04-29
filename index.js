@@ -16,6 +16,7 @@ app.set('view engine', 'ejs');
 
 app.get('/home', team.list);
 app.get('/show', team.show);
+app.get('/graph', team.graph);
 
 
 db.connect('mongodb://localhost:27017/finalcontents', function(){
